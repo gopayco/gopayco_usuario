@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gopayco.usuario" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <description>Hello World sample application that responds to the deviceready event.</description>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Gopayco Usuario</name>
+    <description>Gopayco Monedero Virtual - Pagos Instataneos</description>
+    <author email="gopayco@gmail.com" href="http://acugd.com">Gopayco Monedero Virtual</author>
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://acugd.com/gopayco" />
+    <allow-intent href="https://acugd.com/gopayco" />
+    <allow-intent href="tel:+573106156538" />
+    <allow-intent href="sms:+573106156538" />
+    <allow-intent href="mailto:gopayco@gmail.com" />
+    <allow-intent href="geo:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+</widget>
